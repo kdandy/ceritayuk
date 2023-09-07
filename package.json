@@ -1,0 +1,27 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "^0.5.5",
+    "@nuxt/image": "^1.0.0-rc.1",
+    "@nuxtjs/tailwindcss": "^6.6.5",
+    "@types/croppie": "^2.6.1",
+    "@types/node": "^18.15.11",
+    "nuxt": "^3.5.3",
+    "nuxt-icon": "^0.4.0"
+  },
+  "dependencies": {
+    "@pinia/nuxt": "^0.4.11",
+    "@vercel/analytics": "^1.0.1",
+    "croppie": "^2.6.5",
+    "sweetalert2": "^11.7.3",
+    "vue-social-sharing": "^4.0.0-alpha4"
+  }
+}
